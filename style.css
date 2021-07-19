@@ -61,3 +61,55 @@ header{
     border-radius: 30px;
 }
 /*ARRIBA LOS ESTILOS DEL HEADER*/
+main{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+.main-containen-section{
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-section--input{
+    width: 100%;
+    max-width: 500px;
+    height: 45px;
+    position: relative;
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 16%);
+}
+.container-section--input input{
+    width: 85%;
+    height: 100%;
+    border: none;
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: 500;
+    outline: none;
+}
+.container-section--input .busqueda{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 10px);
+    background-image: url('./aseets/search.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-section--input .microfono{
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    top: calc(50% - 12px);
+    background-image: url('./aseets/google-mic.svg');
+}
